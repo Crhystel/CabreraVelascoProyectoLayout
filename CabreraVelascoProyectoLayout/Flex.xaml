@@ -8,29 +8,36 @@
             Direction="Column"
             JustifyContent="SpaceEvenly"
             Margin="30">
-        <ImageButton Source="foto1.jpg"
-                Clicked="Boton1_Clicked"
-                 HorizontalOptions="Center"
-                 VerticalOptions="Center"
-                 WidthRequest="240"
-                 HeightRequest="130"
-                 BackgroundColor="LightPink"/>
+       
+        <Button ImageSource="foto1.jpg"
+                Text="Cabrera y Velasco"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BackgroundColor="HotPink"
+                FontFamily="AmaticBold"
+                FontSize="30"
+                Clicked="Boton1_Clicked"/>
+        
+        <Button ImageSource="foto2.jpg"
+                Text="Sole y Crhys"
+                HorizontalOptions="Center"
+                HeightRequest="150"
+                VerticalOptions="Center"
+                FontFamily="Pacifico"
+                FontSize="30"
+                BackgroundColor="LightSkyBlue" 
+                Clicked="Boton2_Clicked"/>
+        
+        <Button ImageSource="foto3.jpg"
+                Text="Tapia y Velasco"
+                FontFamily="Amatic"
+                FontSize="30"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                HeightRequest="150"
+                BackgroundColor="Orange"
+                Clicked="Boton3_Clicked"/>
 
-        <ImageButton Source="foto2.jpg"
-                 HorizontalOptions="Center"
-                 VerticalOptions="Center"
-                 Clicked="Boton2_Clicked"
-                 HeightRequest="130"
-                 WidthRequest="240"
-                 BackgroundColor="PaleTurquoise"/>
-
-        <ImageButton Source="foto3.jpg"
-                 HorizontalOptions="Center"
-                 VerticalOptions="Center"
-                 Clicked="Boton3_Clicked"
-                 WidthRequest="240"
-                 HeightRequest="130"
-                 BackgroundColor="Orange"/>
 
     </FlexLayout>
 </ContentPage>
