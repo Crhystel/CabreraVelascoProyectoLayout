@@ -9,6 +9,11 @@
             InitializeComponent();
         }
 
+        private void Boton1_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Stack());
+
+        }
     }
 
 }

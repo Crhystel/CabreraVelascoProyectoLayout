@@ -28,11 +28,16 @@
         <Label Text="Row 1, Column 0"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
+        <Grid Grid.Row="1" Grid.Column="1" BackgroundColor="Beige">
+            <Button x:Name="Boton1"
+                    Text="Llevar a stack"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="Boton1_Clicked"
+                    Margin="30"/>
+        </Grid>
 
-        <BoxView Grid.Row="1" Grid.Column="1" Color="Beige"/>
-        <Label Text="Row 1, Column 1"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
+        
 
     </Grid>
 
