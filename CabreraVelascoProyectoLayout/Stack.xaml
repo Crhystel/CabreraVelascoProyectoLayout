@@ -3,27 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CabreraVelascoProyectoLayout.Stack"
              Title="Stack"
-             Background="Beige">
+             Background="Cornsilk" >
     <VerticalStackLayout Margin="30"
-                         Spacing="10">
+                         Spacing="30">
         <Label 
         Text="Cabrera y Velasco"
-        FontSize="30"
+        FontSize="50"
         VerticalOptions="Center" 
-        HorizontalOptions="Center" />
+        HorizontalOptions="Center" 
+        FontFamily="Pacifico"
+        TextColor="Black"/>
         <Label 
         Text="Sole y Crhystel"
-        FontSize="20"
+        FontSize="40"
         VerticalOptions="Center" 
-        HorizontalOptions="Center" />
+        HorizontalOptions="Center"
+        FontFamily="Pacifico"
+        TextColor="Black"/>
         <Label 
         Text="Tapia y Sarango"
-        FontSize="10"
+        FontSize="30"
         VerticalOptions="Center" 
-        HorizontalOptions="Center" />
+        FontFamily="Pacifico"
+        HorizontalOptions="Center" 
+        TextColor="Black"/>
         <Button
         x:Name="Buton"
         Text="Llevar a flex"
+        BackgroundColor="DarkOliveGreen"
+        FontFamily="Pacifico"
         Clicked="Buton_Clicked"
         />
     </VerticalStackLayout>
