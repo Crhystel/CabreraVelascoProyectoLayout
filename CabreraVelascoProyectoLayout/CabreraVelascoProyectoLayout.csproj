@@ -60,6 +60,9 @@
 	  <None Remove="Resources\Fonts\Amatic-Bold.ttf" />
 	  <None Remove="Resources\Fonts\AmaticSC-Regular.ttf" />
 	  <None Remove="Resources\Fonts\Pacifico.ttf" />
+	  <None Remove="Resources\Images\foto1.jpg" />
+	  <None Remove="Resources\Images\foto2.jpg" />
+	  <None Remove="Resources\Images\foto3.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -75,6 +78,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Flex.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Stack.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

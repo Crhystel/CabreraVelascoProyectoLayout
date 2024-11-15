@@ -8,7 +8,7 @@ public partial class Stack : ContentPage
 	}
     private void Buton_Clicked(object sender, EventArgs e)
     {
-        
+        Navigation.PushAsync(new Flex());
 
     }
 }
