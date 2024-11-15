@@ -6,4 +6,9 @@ public partial class Stack : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void Buton_Clicked(object sender, EventArgs e)
+    {
+        
+
+    }
 }
