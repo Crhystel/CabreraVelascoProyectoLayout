@@ -18,13 +18,13 @@
         FontSize="40"
         VerticalOptions="Center" 
         HorizontalOptions="Center"
-        FontFamily="Pacifico"
+        FontFamily="Amatic"
         TextColor="Black"/>
         <Label 
         Text="Tapia y Sarango"
         FontSize="30"
         VerticalOptions="Center" 
-        FontFamily="Pacifico"
+        FontFamily="AmaticBold"
         HorizontalOptions="Center" 
         TextColor="Black"/>
         <Button
