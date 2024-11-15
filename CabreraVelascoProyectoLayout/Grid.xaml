@@ -19,8 +19,18 @@
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
-        <BoxView Color="Aquamarine"/>
+        <BoxView Grid.Column="1" Color="Aquamarine"/>
         <Label Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="1" Color="Orchid"/>
+        <Label Text="Row 1, Column 0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="1" Grid.Column="1" Color="Beige"/>
+        <Label Text="Row 1, Column 1"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
