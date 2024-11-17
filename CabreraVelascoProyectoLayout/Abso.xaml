@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CabreraVelascoProyectoLayout.Abso"
+             Title="Absolute">
+    <AbsoluteLayout>
+        <!-- Scrollable content -->
+        <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Spacing="15" Padding="10">
+                <Frame BackgroundColor="LightYellow" CornerRadius="10" Padding="10">
+                    <Label Text="¿Por qué el libro de matemáticas se deprimió? Porque tenía demasiados problemas."
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="LightBlue" CornerRadius="10" Padding="10">
+                    <Label Text="El semestre pasado me matriculé en Procrastinación 101."
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="Lavender" CornerRadius="10" Padding="10">
+                    <Label Text="La universidad: donde las 24 horas en un día no alcanzan para hacer nada."
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="LightGreen" CornerRadius="10" Padding="10">
+                    <Label Text="¿Por qué la base de datos fue a terapia? Porque tenía demasiadas relaciones tóxicas."
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="LightCoral" CornerRadius="10" Padding="10">
+                    <Label Text="Bueno aquí ya no supe qué poner"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="GreenYellow" CornerRadius="10" Padding="10">
+                    <Label Text="Ni aquí"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="LightPink" CornerRadius="10" Padding="10">
+                    <Label Text="Pues aquí tampoco"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="Honeydew" CornerRadius="10" Padding="10">
+                    <Label Text="Pero si pongo varios de estos"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+                <Frame BackgroundColor="Beige" CornerRadius="10" Padding="10">
+                    <Label Text="Se va a poder hacer un Scroll"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+
+        <Button Text="Ir a Grid"
+                BackgroundColor="Green"
+                TextColor="White"
+                AbsoluteLayout.LayoutBounds="0.95, 0.95, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Margin="0,0,20,20"
+                Clicked="OnNavigateToGridClicked" />
+    </AbsoluteLayout>
+</ContentPage>

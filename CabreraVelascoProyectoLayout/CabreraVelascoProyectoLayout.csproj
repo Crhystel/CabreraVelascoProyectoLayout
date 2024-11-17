@@ -72,12 +72,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Abso.xaml.cs">
+	    <DependentUpon>Abso.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Grid.xaml.cs">
 	    <DependentUpon>Grid.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Abso.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Flex.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

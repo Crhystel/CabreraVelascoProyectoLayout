@@ -14,21 +14,25 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <BoxView Color="AliceBlue"/>
-        <Label Text="Row 0, Column 0"
+        <BoxView Color="Gold"/>
+        <Label Text=""
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
         <BoxView Grid.Column="1" Color="Aquamarine"/>
-        <Label Text="Row 0, Column 1"
+        <Label Text="¿Sabes que le dice un .gif a un .jpg?"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
         <BoxView Grid.Row="1" Color="Orchid"/>
-        <Label Text="Row 1, Column 0"
+        <Label Text=""
                HorizontalOptions="Center"
                VerticalOptions="Center" />
+        
         <Grid Grid.Row="1" Grid.Column="1" BackgroundColor="Beige">
+            <Label Text="¡Animate!"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
             <Button x:Name="Boton1"
                     Text="Llevar a stack"
                     HorizontalOptions="End"
